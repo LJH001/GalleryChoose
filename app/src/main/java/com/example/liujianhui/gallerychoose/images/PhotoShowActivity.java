@@ -83,6 +83,7 @@ public class PhotoShowActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(PhotoShowActivity.this,"您选择了"+imageUrls.size()+"张图片！",Toast.LENGTH_SHORT).show();
+                Log.d("PhotoShowActivity","您选择了"+imageUrls.size()+"张图片！");
             }
         });
     }
